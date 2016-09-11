@@ -1,2 +1,2 @@
 # Calculator
-Calculaor with Ionic framwork 
+A simple Calculator with Ionic framwork 
