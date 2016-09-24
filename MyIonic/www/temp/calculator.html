@@ -1,0 +1,36 @@
+<ion-view  view-title="Calculator" id ="C">
+		<ion-content  padding="true">
+
+             <button id="reset" name="clear" class="button-block" ng-click="clear()">Clear All</button>
+            <label id="result" type="text" class="button-block" ng-bind="results"></label>
+			<label id="result" type="text" class="button-block" ng-bind="operation"></label>
+
+			
+		
+			<div id="B">
+				<button id ="V" name="equal" ng-click="Equal()" class="button-block">=</button>
+				<span>
+				<button name="number" ng-click="enterNumber(6)" class="button">6</button>
+				<button name="number" ng-click="enterNumber(7)" class="button">7</button>
+				<button name="number" ng-click="enterNumber(8)" class="button">8</button>
+				<button name="number" ng-click="enterNumber(9)" class="button">9</button>
+				<button name="operator" ng-click="enterOperator('/')" class="button">/</button>
+				<br>
+				<br>
+				<button name="number" ng-click="enterNumber(2)" class="button">2</button>
+				<button name="number" ng-click="enterNumber(3)" class="button">3</button>
+				<button name="number" ng-click="enterNumber(4)" class="button">4</button>
+				<button name="number" ng-click="enterNumber(5)" class="button">5</button>
+				<button name="operator"  ng-click="enterOperator('*')" class="button">*</button>
+				<br>
+				<br>
+				<button name="number" ng-click="enterNumber(0)" class="button">0</button>
+				<button name="number" ng-click="enterNumber(1)" class="button">1</button>
+				<button name="float" class="button">.</button>
+				<button name="operator" ng-click="enterOperator('-')" class="button">-</button>
+				<button name="operator" ng-click="enterOperator('+')" class="button">+</button>
+				</span>			
+			</div>
+
+		</ion-content>
+</ion-view>
